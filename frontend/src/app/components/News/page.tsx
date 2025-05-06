@@ -36,7 +36,7 @@ export default function NewsPage() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container max-w-auto mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center mb-6">Utah French Choir News</h1>
       <div className="grid md:grid-cols-3 gap-6">
         {videos.map((video) => (

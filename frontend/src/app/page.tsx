@@ -48,7 +48,7 @@ const Home = () => {
   
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="max-w-auto mx-auto px-4 py-8">
       {/* Hero Section Section  */}
       <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
         <div>
