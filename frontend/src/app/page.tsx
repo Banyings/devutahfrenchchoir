@@ -1,4 +1,4 @@
-
+//Home Page with Subsription Fetching from backend
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -46,7 +46,7 @@ const Home = () => {
     router.push('/components/Join-us');
   };
   
-
+  // Frontend Tsx/Javascprit and Tailliwincss
   return (
     <div className="max-w-auto mx-auto px-4 py-8">
       {/* Hero Section Section  */}
