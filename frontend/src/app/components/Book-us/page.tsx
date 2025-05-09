@@ -231,7 +231,7 @@ export default function ContactForm() {
               </button>
 
               {formStatus.message && (
-                <div className={`text-center mt-4 p-3 rounded-md ${formStatus.isError ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`}>
+                <div className={`flex justify-center rounded-md ${formStatus.isError ? 'bg-red-100 text-red-800 border border-red-400' : 'bg-green-100 text-green-800 border'}`}>
                   {formStatus.message}
                 </div>
               )}

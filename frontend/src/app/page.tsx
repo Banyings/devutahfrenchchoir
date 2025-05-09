@@ -123,7 +123,7 @@ const Home = () => {
           </button>
         </div>
         {message && (
-          <p className={`mt-4 ${messageType === 'success' ? 'text-green-700' : 'text-red-600'}`}>
+          <p className={`mt-4 rounded-md ${messageType === 'success' ? 'bg-green-100 text-green-800 border' : 'bg-red-100 text-red-800 border border-red-400'}`}>
             {message}
           </p>
         )}
